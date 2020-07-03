@@ -12,7 +12,7 @@ export default {
   },
   created () {
     const fetchUsers = async () => 
-    await ( await fetch('/.netlify/functions/getUsers')).json();
+    await ( await fetch('/.netlify/functions/getusers')).json();
 
     fetchUsers().then(data => {
       data.forEach(element => {
