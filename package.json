@@ -14,7 +14,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "netlify-lambda": "^1.6.3"
   },
   "devDependencies": {
